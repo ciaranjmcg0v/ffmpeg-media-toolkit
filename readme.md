@@ -15,7 +15,7 @@ The **FFmpeg Media Toolkit** is a command-line utility designed to convert video
 To run this application, ensure you have FFmpeg installed on your system. Clone this repository and navigate to the project directory:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ciaranjmcg0v/ffmpeg-media-toolkit
 cd ffmpeg-media-toolkit
 ```
 
@@ -29,11 +29,11 @@ chmod +x ffmpeg_converter.sh
 
 To start the conversion process, run the following command in your terminal:
 
+Ensure that the paths for the input and output directories in the script are set correctly.
+
 ```bash
 node ffmpegController.js
 ```
-
-Ensure that the paths for the input and output directories in the script are set correctly.
 
 ## Current Operating System
 
@@ -47,6 +47,8 @@ The toolkit is also intended to be compatible with Windows and Mac systems.
 - Append the current video from the total number of videos that is calculated (e.g., [video 4 of 12]).
 - Extend the script to search for different video formats or include all video formats.
 - Create a UI interface that allows the user to choose and pass in the parameters for the script (e.g., codec type [x265/x264], output format [.MP4, .MKV], output filename, and directory). The UI will let the user choose settings and inject the specified parameters into the script before running it, capturing the output (e.g., "Conversion in progress -> [file 2 of 38]: IMG_4185.MOV - Progress: 30.94%") and rendering it in the UI.
+- Add ENV variables to account for different operating system and add a function to switch between directory paths based on current OS.
+- Explore streaming options for local network.
 
 ## Contributing
 
