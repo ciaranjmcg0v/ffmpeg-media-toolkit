@@ -1,0 +1,15 @@
+{
+  "name": "ffmpeg-media-toolkit",
+  "version": "1.0.0",
+  "author":{
+    "name": "Ciaran McGovern",
+    "email": "ciaranjmcgovern@gmail.com"
+  },
+  "main": "ffmpegController.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": "The FFmpeg Media Toolkit is a command-line utility designed to convert video files in various formats to a specified output format using FFmpeg. This application processes video files in a designated input directory and outputs the converted files to a specified output directory while providing real-time progress updates in the console."
+}
