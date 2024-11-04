@@ -52,8 +52,10 @@ node ffmpegController.js
 ## Current Operating System
 
 - **EndeavourOS** (Arch Linux)
+- **Windows OS**
+- **MacOS**
 
-The toolkit is also intended to be compatible with Windows and Mac systems.
+The toolkit is also intended to be compatible with Windows and Mac systems, although currently developed using Arch Linux.
 
 ## To-Do List
 
